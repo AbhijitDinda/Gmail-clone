@@ -1,0 +1,528 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <div class="flex bg-[#f6f8fc]">
+
+  <div class="w-16 h-[100vh] bg-[#eaf1fb]">
+    <div class="flex flex-col gap-6">
+
+      <div class="flex justify-center items-center h-12 w-full">
+        <i class="fa-solid fa-bars fa-lg"></i>
+      </div>
+
+      <div class="flex flex-col gap-6">
+
+        <div class="flex flex-col justify-center items-center h-12 w-full">
+          <div class="w-12 h-12 rounded-full flex justify-center items-center  bg-[#d3e3fd]">
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+          <div class="text-xs">Mails</div>
+        </div>
+        <div class="flex flex-col justify-center items-center h-12 w-full">
+          <div class="w-12 h-12 rounded-full flex justify-center items-center  hover:bg-[#d3e3fd]">
+            <i class="fa-regular fa-message"></i>
+          </div>
+          <div class="text-xs">Chat</div>
+        </div>
+        <div class="flex flex-col justify-center items-center h-12 w-full">
+          <div class="w-12 h-12 rounded-full flex justify-center items-center  hover:bg-[#d3e3fd]">
+            <i class="fa-solid fa-users-line"></i>
+          </div>
+          <div class="text-xs">Spaces</div>
+        </div>
+        <div class="flex flex-col justify-center items-center h-12 w-full">
+          <div class="w-12 h-12 rounded-full flex justify-center items-center  hover:bg-[#d3e3fd]">
+            <i class="fa-solid fa-video"></i>
+          </div>
+          <div class="text-xs">Meet</div>
+        </div>
+        
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class=" w-full flex gap-4 ">
+    <div class="w-[25%]">
+      <div class="flex flex-col gap-6 px-6 ">
+        
+        <div class="flex items-center gap-2 h-12 w-full ">
+          <img src="./images/logo_gmail_lockup_default_1x_r5.png" alt="imh">
+        </div>
+
+        <div class=" flex flex-col gap-6">
+          <div class="w-full h-14">
+            <div class="rounded-2xl h-full w-40 bg-[#c2e7ff] flex gap-2 justify-center items-center">
+              <div><i class="fa-solid fa-pen fa-lg"></i></div>
+              <div>Compose</div>
+
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-1">
+            <div class="bg-[#d3e3fd] flex gap-4 items-center rounded-full px-4 py-1">
+              <div><i class="fa-solid fa-inbox"></i></div>
+              <div>Inbox</div>
+            </div>
+            <div class="hover:bg-[#d3e3fd] flex gap-4 items-center rounded-full px-4 py-1">
+              <div><i class="fa-regular fa-star"></i></div>
+              <div>Stared</div>
+            </div>
+            <div class="hover:bg-[#d3e3fd] flex gap-4 items-center rounded-full px-4 py-1">
+              <div><i class="fa-regular fa-clock"></i></div>
+              <div>Snoozed</div>
+            </div>
+            <div class="hover:bg-[#d3e3fd] flex gap-4 items-center rounded-full px-4 py-1">
+              <div><i class="fa-regular fa-paper-plane"></i></div>
+              <div>Sent</div>
+            </div>
+            <div class="hover:bg-[#d3e3fd] flex gap-4 items-center rounded-full px-4 py-1">
+              <div><i class="fa-regular fa-note-sticky"></i></div>
+              <div>Drafts</div>
+            </div>
+            <div class="hover:bg-[#d3e3fd] flex gap-4 items-center rounded-full px-4 py-1">
+              <div><i class="fa-solid fa-chevron-down"></i></div>
+              <div>More</div>
+            </div>
+
+          </div>
+
+          <div class="flex flex-col gap-1">
+            <div class="flex justify-between">
+              <div class="font-semibold">Lebels</div>
+              <div><i class="fa-solid fa-plus"></i></div>
+            </div>
+            <div class="px-4 flex gap-4">
+              <div><i class="fa-solid fa-tag"></i></div>
+              <div>Scrum</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    
+    <div class="w-full flex flex-col gap-4">
+      <div class="w-full h-12 flex gap-20 pt-1">
+
+        <div class="relative w-full flex items-center ">
+          <input class="w-full h-full rounded-full  px-12 bg-[#eaf1fb]" type="text" placeholder="Search in emails">
+
+          <div class="absolute inset-y-0 left-4 flex items-center pointer-events-none">
+            <i class="fa-solid fa-magnifying-glass text-gray-500"></i>
+          </div>
+
+          <div class="absolute inset-y-0 right-4 flex items-center pointer-events-none">
+            <i class="fa-solid fa-sliders text-gray-500"></i>
+          </div>
+
+        </div>
+        
+        <div class="w-full flex justify-around gap-8">
+          <div class="rounded-full bg-[#eaf1fb] flex items-center gap-2 px-4">
+            <div><i class="fa-solid fa-circle fa-2xs" style="color: #09a513;"></i></div>
+            <div>Active</div>
+            <div><i class="fa-solid fa-chevron-down fa-xs"></i></div>
+          </div>
+
+          <div class="h-full flex items-center">
+            <div class="rounded-full border border-gray-400 h-6 w-6 flex justify-center items-center">
+              <i class="fa-solid fa-question text-gray-400"></i>
+            </div>
+          </div>
+
+          <div class="h-full flex items-center">
+              <i class="fa-solid fa-gear fa-lg text-gray-400"></i>
+          </div>
+
+          <div class="h-full flex items-center">
+            <i class="fa-solid fa-boxes-stacked fa-lg text-gray-400"></i>
+        </div>
+
+        <div class="h-full flex items-center">
+          <div class="rounded-full  h-8 w-8 flex justify-center items-center bg-blue-600">
+            <div class="text-white">A</div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+
+      <div class="h-full w-full flex">
+
+        <div class="bg-white h-full w-full rounded-2xl flex flex-col gap-2">
+          <!-- box -->
+           <div class="w-full h-10 flex justify-between  px-8 py-8 text-gray-500">
+
+            <div class="flex gap-6">
+              <div class="flex gap-2 items-center h-full">
+                <div><input type="checkbox"></div>
+                <div><i class="fa-solid fa-chevron-down fa-2xs"></i></div>
+
+              </div>
+
+              <div class="flex items-center h-full">
+                <i class="fa-solid fa-arrows-rotate"></i>
+              </div>
+              
+              <div class="flex items-center h-full">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+
+            </div>
+
+            <div class="flex gap-8">
+              <div class="text-xs text-gray-500 flex full items-center">1-50 of 550</div>
+
+              <div class="flex gap-6 h-full items-center">
+                <div><i class="fa-solid fa-less-than"></i></div>
+                <div><i class="fa-solid fa-greater-than"></i></div>
+              </div>
+
+              <div class="flex gap-1 h-full items-center">
+                <div><i class="fa-solid fa-square"></i></div>
+                <div><i class="fa-solid fa-chevron-down fa-2xs"></i></div>
+              </div>
+
+            </div>
+            
+
+           </div>
+
+           <div class="w-full h-max px-4">
+            <div class="w-[75%] grid grid-cols-3 gap-4">
+
+              <div class="border-b-4 border-b-indigo-700 rounded-b-sm">
+
+                <div class="p-2 flex gap-4">
+                  <div><i class="fa-solid fa-inbox text-indigo-700"></i></div>
+                  <div class="text-indigo-700">Primary</div>
+                </div>
+
+              </div>
+
+              <div class=" rounded-b-sm">
+
+                <div class="p-2 flex gap-4">
+                  <div><i class="fa-solid fa-inbox text-gray-500"></i></div>
+                  <div class="text-gray-500">Promotions</div>
+                </div>
+
+              </div>
+
+              <div class=" rounded-b-sm">
+
+                <div class="p-2 flex gap-4">
+                  <div><i class="fa-solid fa-inbox text-gray-500"></i></div>
+                  <div class="text-gray-500">Updates</div>
+                </div>
+
+              </div>
+              
+
+            </div>
+           </div>
+
+           <div class="w-full h-full overflow-y-scroll">
+            
+             <div class="flex flex-col ">
+              <!-- mails -->
+              <div class=" w-full h-max border-b-2 border-b-gray-200 bg-[#f2f6fc]">
+                <div class="h-14 w-full px-6 flex justify-between ">
+
+                  <div class="flex gap-4 h-full">
+
+                    <div class="h-full flex items-center">
+                      <input type="checkbox" >
+                    </div>
+                    <div class="h-full flex items-center">
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="h-full flex items-center">
+                      <img class="h-6 w-6" src="./images/label_important_fill_googyellow500_20dp.png" alt="uu">
+                    </div>
+                    <div class="h-full flex items-center">
+                      <div>PW</div>
+                    </div>
+
+                  </div>
+
+                  <div class="h-full flex items-center">Important mail for two step Varificattion XXXXXXXXXXXXXXX</div>
+                  
+                  <div class="h-full flex items-center text-gray-500 font-semibold text-sm">15.50</div>
+
+                </div>
+
+              </div>
+              <div class=" w-full h-max border-b-2 border-b-gray-200 bg-[#f2f6fc]">
+                <div class="h-14 w-full px-6 flex justify-between ">
+
+                  <div class="flex gap-4 h-full">
+
+                    <div class="h-full flex items-center">
+                      <input type="checkbox" >
+                    </div>
+                    <div class="h-full flex items-center">
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="h-full flex items-center">
+                      <img class="h-6 w-6" src="./images/label_important_fill_googyellow500_20dp.png" alt="uu">
+                    </div>
+                    <div class="h-full flex items-center">
+                      <div>PW</div>
+                    </div>
+
+                  </div>
+
+                  <div class="h-full flex items-center">Important mail for two step Varificattion XXXXXXXXXXXXXXX</div>
+                  
+                  <div class="h-full flex items-center text-gray-500 font-semibold text-sm">15.50</div>
+
+                </div>
+
+              </div>
+              <div class=" w-full h-max border-b-2 border-b-gray-200 bg-[#f2f6fc]">
+                <div class="h-14 w-full px-6 flex justify-between ">
+
+                  <div class="flex gap-4 h-full">
+
+                    <div class="h-full flex items-center">
+                      <input type="checkbox" >
+                    </div>
+                    <div class="h-full flex items-center">
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="h-full flex items-center">
+                      <img class="h-6 w-6" src="./images/label_important_fill_googyellow500_20dp.png" alt="uu">
+                    </div>
+                    <div class="h-full flex items-center">
+                      <div>PW</div>
+                    </div>
+
+                  </div>
+
+                  <div class="h-full flex items-center">Important mail for two step Varificattion XXXXXXXXXXXXXXX</div>
+                  
+                  <div class="h-full flex items-center text-gray-500 font-semibold text-sm">15.50</div>
+
+                </div>
+
+              </div>
+              <div class=" w-full h-max border-b-2 border-b-gray-200 bg-[#f2f6fc]">
+                <div class="h-14 w-full px-6 flex justify-between ">
+
+                  <div class="flex gap-4 h-full">
+
+                    <div class="h-full flex items-center">
+                      <input type="checkbox" >
+                    </div>
+                    <div class="h-full flex items-center">
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="h-full flex items-center">
+                      <img class="h-6 w-6" src="./images/label_important_fill_googyellow500_20dp.png" alt="uu">
+                    </div>
+                    <div class="h-full flex items-center">
+                      <div>PW</div>
+                    </div>
+
+                  </div>
+
+                  <div class="h-full flex items-center">Important mail for two step Varificattion XXXXXXXXXXXXXXX</div>
+                  
+                  <div class="h-full flex items-center text-gray-500 font-semibold text-sm">15.50</div>
+
+                </div>
+
+              </div>
+              <div class=" w-full h-max border-b-2 border-b-gray-200 bg-[#f2f6fc]">
+                <div class="h-14 w-full px-6 flex justify-between ">
+
+                  <div class="flex gap-4 h-full">
+
+                    <div class="h-full flex items-center">
+                      <input type="checkbox" >
+                    </div>
+                    <div class="h-full flex items-center">
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="h-full flex items-center">
+                      <img class="h-6 w-6" src="./images/label_important_fill_googyellow500_20dp.png" alt="uu">
+                    </div>
+                    <div class="h-full flex items-center">
+                      <div>PW</div>
+                    </div>
+
+                  </div>
+
+                  <div class="h-full flex items-center">Important mail for two step Varificattion XXXXXXXXXXXXXXX</div>
+                  
+                  <div class="h-full flex items-center text-gray-500 font-semibold text-sm">15.50</div>
+
+                </div>
+
+              </div>
+              <div class=" w-full h-max border-b-2 border-b-gray-200 bg-[#f2f6fc]">
+                <div class="h-14 w-full px-6 flex justify-between ">
+
+                  <div class="flex gap-4 h-full">
+
+                    <div class="h-full flex items-center">
+                      <input type="checkbox" >
+                    </div>
+                    <div class="h-full flex items-center">
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="h-full flex items-center">
+                      <img class="h-6 w-6" src="./images/label_important_fill_googyellow500_20dp.png" alt="uu">
+                    </div>
+                    <div class="h-full flex items-center">
+                      <div>PW</div>
+                    </div>
+
+                  </div>
+
+                  <div class="h-full flex items-center">Important mail for two step Varificattion XXXXXXXXXXXXXXX</div>
+                  
+                  <div class="h-full flex items-center text-gray-500 font-semibold text-sm">15.50</div>
+
+                </div>
+
+              </div>
+              <div class=" w-full h-max border-b-2 border-b-gray-200 bg-[#f2f6fc]">
+                <div class="h-14 w-full px-6 flex justify-between ">
+
+                  <div class="flex gap-4 h-full">
+
+                    <div class="h-full flex items-center">
+                      <input type="checkbox" >
+                    </div>
+                    <div class="h-full flex items-center">
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="h-full flex items-center">
+                      <img class="h-6 w-6" src="./images/label_important_fill_googyellow500_20dp.png" alt="uu">
+                    </div>
+                    <div class="h-full flex items-center">
+                      <div>PW</div>
+                    </div>
+
+                  </div>
+
+                  <div class="h-full flex items-center">Important mail for two step Varificattion XXXXXXXXXXXXXXX</div>
+                  
+                  <div class="h-full flex items-center text-gray-500 font-semibold text-sm">15.50</div>
+
+                </div>
+
+              </div>
+              <div class=" w-full h-max border-b-2 border-b-gray-200 bg-[#f2f6fc]">
+                <div class="h-14 w-full px-6 flex justify-between ">
+
+                  <div class="flex gap-4 h-full">
+
+                    <div class="h-full flex items-center">
+                      <input type="checkbox" >
+                    </div>
+                    <div class="h-full flex items-center">
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="h-full flex items-center">
+                      <img class="h-6 w-6" src="./images/label_important_fill_googyellow500_20dp.png" alt="uu">
+                    </div>
+                    <div class="h-full flex items-center">
+                      <div>PW</div>
+                    </div>
+
+                  </div>
+
+                  <div class="h-full flex items-center">Important mail for two step Varificattion XXXXXXXXXXXXXXX</div>
+                  
+                  <div class="h-full flex items-center text-gray-500 font-semibold text-sm">15.50</div>
+
+                </div>
+
+              </div>
+              <div class=" w-full h-max border-b-2 border-b-gray-200 bg-[#f2f6fc]">
+                <div class="h-14 w-full px-6 flex justify-between ">
+
+                  <div class="flex gap-4 h-full">
+
+                    <div class="h-full flex items-center">
+                      <input type="checkbox" >
+                    </div>
+                    <div class="h-full flex items-center">
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="h-full flex items-center">
+                      <img class="h-6 w-6" src="./images/label_important_fill_googyellow500_20dp.png" alt="uu">
+                    </div>
+                    <div class="h-full flex items-center">
+                      <div>PW</div>
+                    </div>
+
+                  </div>
+
+                  <div class="h-full flex items-center">Important mail for two step Varificattion XXXXXXXXXXXXXXX</div>
+                  
+                  <div class="h-full flex items-center text-gray-500 font-semibold text-sm">15.50</div>
+
+                </div>
+
+              </div>
+              
+
+             </div>
+
+           </div>
+
+
+        </div>
+        
+        <div class="w-16 h-full pt-10">
+          <div class="flex flex-col gap-8">
+            <div class="flex justify-center items-center ">
+              <img class="h-6 w-6" src="./images/calendar_2020q4_2x.png" alt="img">
+            </div>
+            <div class="flex justify-center items-center ">
+              <img class="h-6 w-6" src="./images/contacts_2022_2x.png" alt="img">
+            </div>
+            <div class="flex justify-center items-center ">
+              <img class="h-6 w-6" src="./images/keep_2020q4v3_2x.png" alt="img">
+            </div>
+            <div class="flex justify-center items-center ">
+              <img class="h-6 w-6" src="./images/tasks_2021_2x.png" alt="img">
+            </div>
+            <div class="flex justify-center items-center ">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+            
+          </div>
+
+        </div>
+        
+
+      </div>
+
+      
+      
+    </div>
+
+
+  </div>
+</div>
+
+</body>
+</html>
